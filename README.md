@@ -18,18 +18,4 @@ answer: in js event delegation is a system where select the whole body then can 
 ### 5. What is the difference between preventDefault() and stopPropagation() methods?
 answer: --preventDefault(): it stop browser automatic action 
         --stopPropagation():on the other hand this stop event to bubbling
----
-
-
-**Technology Stack:**
-- HTML
-- CSS (Vanilla/Tailwind/DaisyUI)
-- JavaScript (Vanilla)
-
-
---- 
-
-## What to submit: 
-
-1. GitHub Repository Link: 
-2. Live Site Link: 
+ 
