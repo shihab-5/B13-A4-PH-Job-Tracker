@@ -148,13 +148,19 @@ render()
 }
 }    
 
-    else if(event.target.classList.contains('dtl-btn')){
-        const prnt=event.target.parentNode
-        console.log(event.target.parentNode)
-        console.log('dlt-btn')
-        
-    }
+    else if(event.target.classList.contains('dlt-btn')){
+        const prnt=event.target.parentNode.parentNode.parentNode
+        console.log(prnt)
+        const name=prnt.querySelector('.name').innerText
+    
+        prnt.remove();
 
+    interList=interList.filter(item=> item.name != name)
+    rejectList=rejectList.filter(item=> item.name != name)
+       
+        hcartcnt();
+    
+    }
  })
 
 
@@ -182,7 +188,7 @@ render()
                </div>
               </div>
               <div class="dlt">
-                <p><i class="fa-regular fa-trash-can"></i></p>
+                <p><i class="fa-regular fa-trash-can dlt-btn"></i></p>
               </div>`
               intersec.appendChild(div)
   }
@@ -207,7 +213,7 @@ render()
                </div>
               </div>
               <div class="dlt">
-                <p><i class="fa-regular fa-trash-can"></i></p>
+                <p><i class="fa-regular fa-trash-can dlt-btn"></i></p>
               </div>`
               intersec.appendChild(div)
   }
