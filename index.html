@@ -49,7 +49,7 @@
     <main>
          <div class="flex justify-between">
             <p class="font-bold text-2xl">Available Jobs</p>
-            <p class="text-gray-500">8 jobs</p>
+            <p class="text-gray-500" id="ttl">8 jobs</p>
          </div>
          <div class="my-4">
           <button onclick="tgle('all-baton')" class="btn btn-primary px-7" id="all-baton">All</button>
@@ -87,7 +87,7 @@
                </div>
               </div>
               <div class="dlt">
-                <p><i class="fa-regular fa-trash-can"></i></p>
+                 <button><i class="fa-regular fa-trash-can dlt-btn"></i></button>
               </div>
             </div>
             <div class="jobcart flex p-6 bg-base-100 rounded-[10px] justify-between">
@@ -104,7 +104,7 @@
                </div>
               </div>
               <div class="dlt">
-                <p><i class="fa-regular fa-trash-can"></i></p>
+                 <button><i class="fa-regular fa-trash-can dlt-btn"></i></button>
               </div>
             </div>
             <div class="jobcart flex p-6 bg-base-100 rounded-[10px] justify-between">
@@ -121,7 +121,7 @@
                </div>
               </div>
               <div class="dlt">
-                <p><i class="fa-regular fa-trash-can"></i></p>
+                 <button><i class="fa-regular fa-trash-can dlt-btn"></i></button>
               </div>
             </div>
             <div class="jobcart flex p-6 bg-base-100 rounded-[10px] justify-between">
@@ -138,7 +138,7 @@
                </div>
               </div>
               <div class="dlt">
-                <p><i class="fa-regular fa-trash-can"></i></p>
+                 <button><i class="fa-regular fa-trash-can dlt-btn"></i></button>
               </div>
             </div>
             <div class="jobcart flex p-6 bg-base-100 rounded-[10px] justify-between">
@@ -155,7 +155,7 @@
                </div>
               </div>
               <div class="dlt">
-                <p><i class="fa-regular fa-trash-can"></i></p>
+                 <button><i class="fa-regular fa-trash-can dlt-btn"></i></button>
               </div>
             </div>
             <div class="jobcart flex p-6 bg-base-100 rounded-[10px] justify-between">
@@ -172,7 +172,7 @@
                </div>
               </div>
               <div class="dlt">
-                <p><i class="fa-regular fa-trash-can"></i></p>
+                 <button><i class="fa-regular fa-trash-can dlt-btn"></i></button>
               </div>
             </div>
             <div class="jobcart flex p-6 bg-base-100 rounded-[10px] justify-between">
@@ -189,7 +189,7 @@
                </div>
               </div>
               <div class="dlt">
-                <p><i class="fa-regular fa-trash-can"></i></p>
+                 <button><i class="fa-regular fa-trash-can dlt-btn"></i></button>
               </div>
             </div>
             <div class="jobcart flex p-6 bg-base-100 rounded-[10px] justify-between">
@@ -206,145 +206,15 @@
                </div>
               </div>
               <div class="dlt">
-                <p><i class="fa-regular fa-trash-can"></i></p>
+                 <button><i class="fa-regular fa-trash-can dlt-btn"></i></button>
               </div>
             </div>
-
-
-
-
-
-
-
-
-
-
-
-            <!-- <div class="jobcart flex p-6 bg-base-100 rounded-[10px] justify-between">
-              <div class="info flex flex-col gap-1.5">
-               <p class="font-bold text-[20px]">Mobile First Corp</p>
-               <p class="font-medium text-[16px] text-gray-500">React Native Developer</p>
-               <p class="font-medium text-[14px] text-gray-500 my-2.5">Remote • Full-time • $130,000 - $175,000</p>
-               <p class="border-0 bg-primary-content py-3 px-4 mr-[690px] rounded-[5px]">Not Applied</p>
-               <p>Build cross-platform mobile applications using React Native. Work on products used by millions of users worldwide.</p>
-               <div class="flex gap-3">
-                 <button  class="btn btn-outline btn-success">INTERVIEW</button>
-
-                 <button class="btn btn-outline btn-error">REJECTED</button>
-               </div>
-              </div>
-              <div class="dlt">
-                <p><i class="fa-regular fa-trash-can"></i></p>
-              </div>
-            </div> -->
-            <!-- <div class="jobcart flex p-6 bg-base-100 rounded-[10px] justify-between">
-              <div class="info flex flex-col gap-1.5">
-               <p class="font-bold text-[20px]">Mobile First Corp</p>
-               <p class="font-medium text-[16px] text-gray-500">React Native Developer</p>
-               <p class="font-medium text-[14px] text-gray-500 my-2.5">Remote • Full-time • $130,000 - $175,000</p>
-               <p class="border-0 bg-primary-content py-3 px-4 mr-[690px] rounded-[5px]">Not Applied</p>
-               <p>Build cross-platform mobile applications using React Native. Work on products used by millions of users worldwide.</p>
-               <div class="flex gap-3">
-                 <button  class="btn btn-outline btn-success">INTERVIEW</button>
-
-                 <button class="btn btn-outline btn-error">REJECTED</button>
-               </div>
-              </div>
-              <div class="dlt">
-                <p><i class="fa-regular fa-trash-can"></i></p>
-              </div>
-            </div> -->
-            <!-- <div class="jobcart flex p-6 bg-base-100 rounded-[10px] justify-between">
-              <div class="info flex flex-col gap-1.5">
-               <p class="font-bold text-[20px]">Mobile First Corp</p>
-               <p class="font-medium text-[16px] text-gray-500">React Native Developer</p>
-               <p class="font-medium text-[14px] text-gray-500 my-2.5">Remote • Full-time • $130,000 - $175,000</p>
-               <p class="border-0 bg-primary-content py-3 px-4 mr-[690px] rounded-[5px]">Not Applied</p>
-               <p>Build cross-platform mobile applications using React Native. Work on products used by millions of users worldwide.</p>
-               <div class="flex gap-3">
-                 <button  class="btn btn-outline btn-success">INTERVIEW</button>
-
-                 <button class="btn btn-outline btn-error">REJECTED</button>
-               </div>
-              </div>
-              <div class="dlt">
-                <p><i class="fa-regular fa-trash-can"></i></p>
-              </div>
-            </div> -->
-            <!-- <div class="jobcart flex p-6 bg-base-100 rounded-[10px] justify-between">
-              <div class="info flex flex-col gap-1.5">
-               <p class="font-bold text-[20px]">Mobile First Corp</p>
-               <p class="font-medium text-[16px] text-gray-500">React Native Developer</p>
-               <p class="font-medium text-[14px] text-gray-500 my-2.5">Remote • Full-time • $130,000 - $175,000</p>
-               <p class="border-0 bg-primary-content py-3 px-4 mr-[690px] rounded-[5px]">Not Applied</p>
-               <p>Build cross-platform mobile applications using React Native. Work on products used by millions of users worldwide.</p>
-               <div class="flex gap-3">
-                 <button  class="btn btn-outline btn-success">INTERVIEW</button>
-
-                 <button class="btn btn-outline btn-error">REJECTED</button>
-               </div>
-              </div>
-              <div class="dlt">
-                <p><i class="fa-regular fa-trash-can"></i></p>
-              </div>
-            </div> -->
-            <!-- <div class="jobcart flex p-6 bg-base-100 rounded-[10px] justify-between">
-              <div class="info flex flex-col gap-1.5">
-               <p class="font-bold text-[20px]">Mobile First Corp</p>
-               <p class="font-medium text-[16px] text-gray-500">React Native Developer</p>
-               <p class="font-medium text-[14px] text-gray-500 my-2.5">Remote • Full-time • $130,000 - $175,000</p>
-               <p class="border-0 bg-primary-content py-3 px-4 mr-[690px] rounded-[5px]">Not Applied</p>
-               <p>Build cross-platform mobile applications using React Native. Work on products used by millions of users worldwide.</p>
-               <div class="flex gap-3">
-                 <button  class="btn btn-outline btn-success">INTERVIEW</button>
-
-                 <button class="btn btn-outline btn-error">REJECTED</button>
-               </div>
-              </div>
-              <div class="dlt">
-                <p><i class="fa-regular fa-trash-can"></i></p>
-              </div>
-            </div> -->
-            <!-- <div class="jobcart flex p-6 bg-base-100 rounded-[10px] justify-between">
-              <div class="info flex flex-col gap-1.5">
-               <p class="font-bold text-[20px]">Mobile First Corp</p>
-               <p class="font-medium text-[16px] text-gray-500">React Native Developer</p>
-               <p class="font-medium text-[14px] text-gray-500 my-2.5">Remote • Full-time • $130,000 - $175,000</p>
-               <p class="border-0 bg-primary-content py-3 px-4 mr-[690px] rounded-[5px]">Not Applied</p>
-               <p>Build cross-platform mobile applications using React Native. Work on products used by millions of users worldwide.</p>
-               <div class="flex gap-3">
-                 <button  class="btn btn-outline btn-success">INTERVIEW</button>
-
-                 <button class="btn btn-outline btn-error">REJECTED</button>
-               </div>
-              </div>
-              <div class="dlt">
-                <p><i class="fa-regular fa-trash-can"></i></p>
-              </div>
-            </div> -->
-            <!-- <div class="jobcart flex p-6 bg-base-100 rounded-[10px] justify-between">
-              <div class="info flex flex-col gap-1.5">
-               <p class="font-bold text-[20px]">Mobile First Corp</p>
-               <p class="font-medium text-[16px] text-gray-500">React Native Developer</p>
-               <p class="font-medium text-[14px] text-gray-500 my-2.5">Remote • Full-time • $130,000 - $175,000</p>
-               <p class="border-0 bg-primary-content py-3 px-4 mr-[690px] rounded-[5px]">Not Applied</p>
-               <p>Build cross-platform mobile applications using React Native. Work on products used by millions of users worldwide.</p>
-               <div class="flex gap-3">
-                 <button  class="btn btn-outline btn-success">INTERVIEW</button>
-
-                 <button class="btn btn-outline btn-error">REJECTED</button>
-               </div>
-              </div>
-              <div class="dlt">
-                <p><i class="fa-regular fa-trash-can"></i></p>
-              </div>
-            </div> -->
-         </div>
+        </div>
      </section>
     </main>
 
     <footer>
-    <script src="/job.js"></script>
+    <script src="./job.js"></script>
     </footer>
 </body>
 </html>

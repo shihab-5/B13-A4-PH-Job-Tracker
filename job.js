@@ -5,6 +5,7 @@ let currentState='all'
 const total=document.getElementById("total");
 const inter=document.getElementById("inter");
 const reject=document.getElementById("reject");
+const avilablet=document.getElementById('ttl')
 
 const hCarts=document.getElementById('alljobcarts')
 const mainCont=document.querySelector('main')
@@ -21,6 +22,7 @@ function hcartcnt(){
     total.innerText=hCarts.children.length
     inter.innerText=interList.length
     reject.innerText=rejectList.length
+    avilablet.innerText=hCarts.children.length +' jobs';
 
 }
  hcartcnt()
@@ -81,7 +83,6 @@ fullList.classList.add('hidden')
 
 
 
-
  mainCont.addEventListener('click',function(event){
 
      if(event.target.classList.contains('inter-batn')){
@@ -132,7 +133,6 @@ renderr()
         require
     }
 
-    console.log("amake pawa gese");
     const exist=rejectList.find( item=>  item.name== cart.name)
     prnt.querySelector('.state').innerText='Rejected'
     if(!exist){
@@ -147,6 +147,13 @@ if(currentState=='inter-baton'){
 render()    
 }
 }    
+
+    else if(event.target.classList.contains('dtl-btn')){
+        const prnt=event.target.parentNode
+        console.log(event.target.parentNode)
+        console.log('dlt-btn')
+        
+    }
 
  })
 
