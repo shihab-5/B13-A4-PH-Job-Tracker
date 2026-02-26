@@ -153,7 +153,8 @@ render()
         console.log(prnt)
         const name=prnt.querySelector('.name').innerText
     
-        prnt.remove();
+        prnt.style.display='none';
+               hcartcnt();
 
     interList=interList.filter(item=> item.name != name)
     rejectList=rejectList.filter(item=> item.name != name)
@@ -179,7 +180,7 @@ render()
                <p class=" name font-bold text-[20px]">${inte.name}</p>
                <p class="position font-medium text-[16px] text-gray-500">${inte.position}</p>
                <p class="detail font-medium text-[14px] text-gray-500 my-2.5">${inte.detail}</p>
-               <p class="state border-0 bg-primary-content py-3 px-4 mr-[690px] rounded-[5px]">${inte.state}</p>
+               <p class="state border-0 bg-primary-content py-3 px-4 w-fit rounded-[5px]">${inte.state}</p>
                <p class="require">${inte.require}</p>
           <div class="flex gap-3">
                  <button  class="inter-batn btn btn-outline btn-success" id="">INTERVIEW</button>
@@ -204,7 +205,7 @@ render()
                <p class=" name font-bold text-[20px]">${inte.name}</p>
                <p class="position font-medium text-[16px] text-gray-500">${inte.position}</p>
                <p class="detail font-medium text-[14px] text-gray-500 my-2.5">${inte.detail}</p>
-               <p class="state border-0 bg-primary-content py-3 px-4 mr-[690px] rounded-[5px]">${inte.state}</p>
+               <p class="state border-0 bg-primary-content py-3 px-4 w-fit rounded-[5px]">${inte.state}</p>
                <p class="require">${inte.require}</p>
               <div class="flex gap-3">
                  <button  class="inter-batn btn btn-outline btn-success" id="">INTERVIEW</button>
